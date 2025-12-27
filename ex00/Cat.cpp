@@ -1,4 +1,5 @@
 #include "Cat.hpp"
+#include <iostream>
 
 Cat::Cat() : Animal() {
     type = "Cat";
@@ -14,7 +15,7 @@ Cat& Cat::operator=(const Cat& other) {
     return *this;
 }
 
-Animal::~Animal() {
+Cat::~Cat() {
 }
 
 void Cat::makeSound() const {

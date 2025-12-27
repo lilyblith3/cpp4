@@ -1,4 +1,5 @@
 #include "Animal.hpp"
+#include <iostream>
 
 Animal::Animal() : type("Animal") {
 }
@@ -18,4 +19,8 @@ Animal::~Animal() {
 
 void Animal::makeSound() const {
     std::cout << "animal sound" << std::endl;
+}
+
+std::string Animal::getType() const {
+    return type;
 }

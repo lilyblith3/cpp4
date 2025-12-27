@@ -47,7 +47,7 @@ int main()
     
     std::cout << "\nOriginal dog idea 0: " << origDog.getBrainIdea(0) << std::endl;
     std::cout << "Copy dog idea 0: " << copyDog.getBrainIdea(0) << std::endl;
-    std::cout << "(Should be different - proving deep copy)" << std::endl;
+    std::cout << "(Should be different proving deep copy)" << std::endl;
     
     std::cout << "\n=== Deep copy test for Cat ===" << std::endl;
     Cat origCat;
